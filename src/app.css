@@ -1,0 +1,119 @@
+#app {
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  padding: 10px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#exercise p {
+  font-size: 16px;
+  text-align: justify;
+  padding: 4px 20px;
+}
+
+button {
+  background-color: white;
+  color: #007cc3;
+  cursor: pointer;
+  border: 1px solid #007cc3;
+  height: 30px;
+  margin: 2px;
+  min-width: 100px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+button:disabled {
+  border: 1px solid #fff;
+  background-color: #e0e0e0;
+  color: #666666;
+}
+
+input {
+  color: #007cc3;
+  padding: 4px;
+  max-width: 200px;
+  height: 20px;
+}
+
+.emphasis {
+  font-style: italic;
+  font-weight: 700;
+  color: #007cc3;
+  text-align: justify;
+}
+
+h2 {
+  color: #007cc3;
+}
+
+#eingabe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 10px;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 10px 5px 5px;
+}
+
+li {
+  font-size: 16px;
+  margin-left: -15px;
+}
+
+li p {
+  margin: 0px;
+}
+
+hr {
+  border-color: #fff;
+}
+
+#container {
+  text-align: center;
+  border: 1px solid #007cc3;
+  padding: 10px;
+}
+
+select {
+  background-color: white;
+  color: #007cc3;
+  border: 1px solid #007cc3;
+  height: 30px;
+  padding: 4px;
+  margin: 2px;
+  min-width: 160px;
+  cursor: pointer;
+}
+
+select:hover {
+  opacity: 0.5;
+}
+
+select:focus {
+  outline: 2px solid #007cc3;
+  outline-offset: 1px;
+}
+
+select:disabled {
+  border: 1px solid #fff;
+  background-color: #e0e0e0;
+  color: #666666;
+  cursor: default;
+}
+
+option {
+  background-color: white;
+  color: #007cc3;
+}
